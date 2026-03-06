@@ -1,0 +1,41 @@
+   body{
+            margin:0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Navbar */
+        .navbar{
+            background-color:#1e1e2f;
+            padding:15px 30px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        }
+
+        .logo{
+            color:white;
+            font-size:22px;
+            font-weight:bold;
+        }
+
+        .menu{
+            list-style:none;
+            display:flex;
+            gap:25px;
+        }
+
+        .menu li a{
+            color:white;
+            text-decoration:none;
+            font-size:16px;
+            transition:0.3s;
+        }
+
+        .menu li a:hover{
+            color:#00c3ff;
+        }
+
+        /* Conteúdo exemplo */
+        .conteudo{
+            padding:40px;
+        }
